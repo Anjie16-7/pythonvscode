@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 st.set_page_config(layout='wide')
 csvlink= pd.read_csv('employ.csv')
-menu=st.sidebar.selectbox("Select Menu",["Register","Database",'Employ File'])
+menu=st.sidebar.selectbox("Select Menu",["Register","Database",'Employee File'])
 userid='User_'+str(len(csvlink)+1)
 if menu == "Register":
     st.title(":orange[Register Here]")
@@ -31,7 +31,80 @@ if menu == "Register":
         tab=pd.DataFrame(dict)
         table2= pd.concat([csvlink,tab],ignore_index=True)
         table2.to_csv("employ.csv",index=False)
-
+space=' '
 if menu=='Database':
     st.title(":orange[Database]")
     st.table(csvlink)
+
+if menu == "Employee File":
+    side1,side2,side3= st.columns(3)
+    with side3:
+        st.subheader("Find Employee Details")
+        find= st.text_input('Find Employee ID')
+        but=st. button("Find")
+  
+    if but:
+        if find:
+                try:
+                    result=csvlink[csvlink['User ID']== find ]
+                    #st.table(result)
+                    nfm=result['First Name'].iloc[0]
+                    nlm=result['Last Name'].iloc[0]
+                    st.title(f':violet[{nfm}{space}{nlm}]')
+                    st.subheader('Personal Information')
+                    st.divider()
+                    nemail=result['Email'].iloc[0]
+                    ngen=result['Gender'].iloc[0]
+                    ned=result['Education Degree'].iloc[0]
+                    dis1,dis2,dis3=st.columns(3)
+                    with dis1:
+                        st.write("Email")
+                        st.write(f':blue[{nemail}]')
+                    with dis2:
+                        st.write('Gender')
+                        st.write(f':blue[{ngen}]')
+                    with dis3:
+                        st.write('Educational Level')
+                        st.write(f':blue[{ned}]')
+                    st.divider()
+                    st.subheader('Job Information')
+                    st.divider()
+                    dis4,dis5,dis6=st.columns(3)
+                    ndepart=result['Department'].iloc[0]
+                    njb=result['Job Title'].iloc[0]
+                    ncs=result['Contract Status'].iloc[0]
+                    
+                    st.divider()
+                    with dis4:
+                        st.write("Department")
+                        st.write(f':blue[{ndepart}]')
+                    with dis5:
+                        st.write("Job Title")
+                        st.write(f':blue[{njb}]')
+                    with dis6:
+                        st.write("Contract Status")
+                        st.write(f':blue[{ncs}]')
+                    
+                    nmi=result['Monthly Income'].iloc[0]
+                    ned=result['Education Degree'].iloc[0]
+                    nedt=result['Employment Date'].iloc[0]
+                    dis7,dis8,dis9=st.columns(3)
+                    with dis7:
+                        st.write("Monthly Income")
+                        st.write(f':blue[${nmi}]')
+                    with dis8:
+                        st.write("Education Degree")
+                        st.write(f':blue[{ned}]')
+                    with dis9:
+                        st.write("Employment Date")
+                        st.write(f':blue[{nedt}]')
+
+                except IndexError:
+                        st.success('The UserID cannot be found')
+        else:
+            st.error("Please input value...")
+
+
+              
+         
+  
