@@ -46,7 +46,7 @@ if menu == "Employee File":
     if but:
         if find:
                 try:
-                    result=csvlink[csvlink['User ID']== find ]
+                    result=csvlink[csvlink['User ID'].str.lower()== find.lower() ]
                     #st.table(result)
                     nfm=result['First Name'].iloc[0]
                     nlm=result['Last Name'].iloc[0]
