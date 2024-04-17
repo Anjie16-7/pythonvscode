@@ -3,6 +3,7 @@ import pandas as pd
 st.set_page_config(layout='wide')
 csvlink= pd.read_csv('employ.csv')
 menu=st.sidebar.selectbox("Select Menu",["Register","Database",'Employee File'])
+st.sidebar.write("**Made By Aisha**")
 userid='User_'+str(len(csvlink)+1)
 if menu == "Register":
     st.title(":orange[Register Here]")
