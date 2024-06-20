@@ -2,11 +2,13 @@ import streamlit as st
 from fpdf import FPDF
 import base64 # convert python binary to printable characters
 col1,col2,col3=st.columns(3)
-with col2:
+with col3:
     st.title("Invoice")
 with col1:
     logo = st.image("logo.png",120,120)
-
+st.write('Lily Corporation')
+st.write('237 Avenue Street, Al Barsha')
+st.write("Dubai,UAE")
 col4,col5=st.columns(2)
 with col4:
     name=st.text_input("Bill to:",placeholder='Customer Name', )
@@ -59,11 +61,38 @@ def generate_pdf():
 
      #Set column1 x and y coord
      col1x = 10
-     col1y = 100
+     col1y = 15
+     colw=45
+     colh=10
 
 
      #Add image
-     pdf.image("Logo.png",x=col1x, y=col1y)
+     pdf.image("Logo.png",x=col1x, y=col1y, w=45)
+     pdf.set_font("Arial", size=21, style='B')
+
+     pdf.set_xy(col1x+140,col1y+15)
+     pdf.cell(colw,colh, txt='INVOICE',ln=True,align='L')
+
+     pdf.set_font("Arial",size=15)
+     pdf.set_xy(col1x+15,col1y+40)
+     pdf.cell(colw,colh, txt='Lily Corporation:',ln=True, align='L' )
+
+     pdf.set_font("Arial",size=15)
+     pdf.set_xy(col1x+15,col1y+50)
+     pdf.cell(colw,colh, txt='237 Avenue Street, Al Barsha',ln=True, align='L' )
+
+     pdf.set_font("Arial",size=15)
+     pdf.set_xy(col1x+15,col1y+60)
+     pdf.cell(colw,colh, txt='Dubai UAE',ln=True, align='L' )
+
+     pdf.set_font("Arial",size=15)
+     pdf.set_xy(col1x+15,col1y+78)
+     pdf.cell(colw,colh, txt='Bill to:',ln=True, align='L' )
+
+
+     pdf.set_font("Arial",size=15)
+     pdf.set_xy(col1x+30,col1y+78)
+     pdf.cell(colw,colh, txt=name,ln=True, align='L' )
 
 
 
