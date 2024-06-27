@@ -14,24 +14,29 @@ with col4:
     name=st.text_input("Bill to:",placeholder='Customer Name', )
     address= st.text_input('E',placeholder="Email Address",label_visibility= 'collapsed')
 with col5:
-    num=st.text_input('Invoice#:')
+    num=st.text_input('Invoice#:', placeholder="Invoice Number")
     date= st.date_input('Invoice Date:')
+    ndate=str(date)
     due= st.date_input("Due Date:")
+    ndue= str(due)
 
 
 col6,col7,col8,col9=st.columns(4)
 with col6:
-    decript= st.text_input('Description', placeholder='Enter Description')
+    descript= st.text_input('Description', placeholder='Enter Description')
 with col7:
      
     quantity=st.number_input("Quantity",0,100)
+    nquantity=str(quantity)
      
     
 with col8:
     Price= st.number_input("Price per Unit")
+    nPrice=str(Price)
 with col9:    
     Total= quantity*Price
     show= st.text_input("Total Price",Total)
+    nTotal=str(Total)
 st.divider()
 col10, col11=st.columns(2)
 with col10:
@@ -85,21 +90,79 @@ def generate_pdf():
      pdf.set_xy(col1x+15,col1y+60)
      pdf.cell(colw,colh, txt='Dubai UAE',ln=True, align='L' )
 
-     pdf.set_font("Arial",size=15)
-     pdf.set_xy(col1x+15,col1y+78)
+     pdf.set_font("Arial",size=15, style='B')
+     pdf.set_xy(col1x+15,col1y+85)
      pdf.cell(colw,colh, txt='Bill to:',ln=True, align='L' )
 
 
      pdf.set_font("Arial",size=15)
-     pdf.set_xy(col1x+30,col1y+78)
+     pdf.set_xy(col1x+33,col1y+85)
      pdf.cell(colw,colh, txt=name,ln=True, align='L' )
 
+     pdf.set_font("Arial",size=15, style='B')
+     pdf.set_xy(col1x+15,col1y+95)
+     pdf.cell(colw,colh, txt='Email Address:',ln=True, align='L' )
 
+     pdf.set_font("Arial",size=15)
+     pdf.set_xy(col1x+55,col1y+95)
+     pdf.cell(colw,colh, txt=address,ln=True, align='L' )
 
-
-
-
+     pdf.set_font("Arial",size=15, style='B')
+     pdf.set_xy(col1x+109,col1y+85)
+     pdf.cell(colw,colh, txt='Invoice Number:',ln=True, align='L' )
      
+     pdf.set_font("Arial",size=15)
+     pdf.set_xy(col1x+155,col1y+85)
+     pdf.cell(colw,colh, txt=num,ln=True, align='L' )
+
+     pdf.set_font("Arial",size=15, style='B')
+     pdf.set_xy(col1x+109,col1y+95)
+     pdf.cell(colw,colh, txt='Invoice Date:',ln=True, align='L' )
+
+     pdf.set_font("Arial",size=15)
+     pdf.set_xy(col1x+150,col1y+95)
+     pdf.cell(colw,colh, txt=ndate,ln=True, align='L' )
+
+     pdf.set_font("Arial",size=15, style='B')
+     pdf.set_xy(col1x+109,col1y+105)
+     pdf.cell(colw,colh, txt='Due Date:',ln=True, align='L' )
+
+     pdf.set_font("Arial",size=15)
+     pdf.set_xy(col1x+135,col1y+105)
+     pdf.cell(colw,colh, txt=ndue,ln=True, align='L' )
+
+
+     pdf.set_font("Arial",size=15, style='B')
+     pdf.set_xy(col1x+15,col1y+125)
+     pdf.cell(colw,colh, txt='Description:',ln=True, align='L' )
+
+     pdf.set_font("Arial",size=15)
+     pdf.set_xy(col1x+15,col1y+135)
+     pdf.cell(colw,colh, txt=descript,ln=True, align='L')
+
+     pdf.set_font("Arial",size=15, style='B')
+     pdf.set_xy(col1x+65,col1y+125)
+     pdf.cell(colw,colh, txt='Quantity:',ln=True, align='L' )
+
+     pdf.set_font("Arial",size=15)
+     pdf.set_xy(col1x+75,col1y+135)
+     pdf.cell(colw,colh, txt=nquantity,ln=True, align='L')
+
+     pdf.set_font("Arial",size=15, style='B')
+     pdf.set_xy(col1x+100,col1y+125)
+     pdf.cell(colw,colh, txt='Price per Unit:',ln=True, align='L' )
+
+     pdf.set_font("Arial",size=15)
+     pdf.set_xy(col1x+110,col1y+135)
+     pdf.cell(colw,colh, txt=nPrice,ln=True, align='L')
+
+     pdf.set_font("Arial",size=15, style='B')
+     pdf.set_xy(col1x+155,col1y+125)
+     pdf.cell(colw,colh, txt='Total:',ln=True, align='L' )
+
+     #pdf.set_font('Arial', size=15 )
+    # pdf.set_xy(col)
+
      #Save the PDF
      pdf_file = 'invoice.pdf'
      pdf.output(pdf_file)
