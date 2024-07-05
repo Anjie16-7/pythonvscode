@@ -46,7 +46,7 @@ with col10:
     st.write("Bank Name: UAE Bank",)
 with col11:
     st.write("Payment Due")
-    st.header(Total)
+    st.header(f'${Total}')
     
 
 #function to generate our PDF
@@ -99,12 +99,8 @@ def generate_pdf():
      pdf.set_xy(col1x+33,col1y+85)
      pdf.cell(colw,colh, txt=name,ln=True, align='L' )
 
-     pdf.set_font("Arial",size=15, style='B')
-     pdf.set_xy(col1x+15,col1y+95)
-     pdf.cell(colw,colh, txt='Email Address:',ln=True, align='L' )
-
      pdf.set_font("Arial",size=15)
-     pdf.set_xy(col1x+55,col1y+95)
+     pdf.set_xy(col1x+15,col1y+95)
      pdf.cell(colw,colh, txt=address,ln=True, align='L' )
 
      pdf.set_font("Arial",size=15, style='B')
@@ -123,12 +119,12 @@ def generate_pdf():
      pdf.set_xy(col1x+150,col1y+95)
      pdf.cell(colw,colh, txt=ndate,ln=True, align='L' )
 
-     pdf.set_font("Arial",size=15, style='B')
-     pdf.set_xy(col1x+109,col1y+105)
+     pdf.set_font("Arial",size=15)
+     pdf.set_xy(col1x+15,col1y+216)
      pdf.cell(colw,colh, txt='Due Date:',ln=True, align='L' )
 
      pdf.set_font("Arial",size=15)
-     pdf.set_xy(col1x+135,col1y+105)
+     pdf.set_xy(col1x+45,col1y+216)
      pdf.cell(colw,colh, txt=ndue,ln=True, align='L' )
 
 
@@ -141,24 +137,65 @@ def generate_pdf():
      pdf.cell(colw,colh, txt=descript,ln=True, align='L')
 
      pdf.set_font("Arial",size=15, style='B')
-     pdf.set_xy(col1x+65,col1y+125)
+     pdf.set_xy(col1x+75,col1y+125)
      pdf.cell(colw,colh, txt='Quantity:',ln=True, align='L' )
 
      pdf.set_font("Arial",size=15)
-     pdf.set_xy(col1x+75,col1y+135)
+     pdf.set_xy(col1x+85,col1y+135)
      pdf.cell(colw,colh, txt=nquantity,ln=True, align='L')
 
      pdf.set_font("Arial",size=15, style='B')
-     pdf.set_xy(col1x+100,col1y+125)
+     pdf.set_xy(col1x+110,col1y+125)
      pdf.cell(colw,colh, txt='Price per Unit:',ln=True, align='L' )
 
      pdf.set_font("Arial",size=15)
-     pdf.set_xy(col1x+110,col1y+135)
+     pdf.set_xy(col1x+120,col1y+135)
      pdf.cell(colw,colh, txt=nPrice,ln=True, align='L')
 
      pdf.set_font("Arial",size=15, style='B')
-     pdf.set_xy(col1x+155,col1y+125)
+     pdf.set_xy(col1x+165,col1y+125)
      pdf.cell(colw,colh, txt='Total:',ln=True, align='L' )
+
+     pdf.set_font("Arial",size=15)
+     pdf.set_xy(col1x+164,col1y+135)
+     pdf.cell(colw,colh, txt=f'${nTotal}',ln=True, align='L')
+     
+     pdf.set_line_width(0.5) #set the width of the line
+     pdf.line(col1x+10, col1y+135,col1x+180,col1y+135) 
+
+
+     pdf.set_font("Arial",size=19, style='B')
+     pdf.set_xy(col1x+15,col1y+180)
+     pdf.cell(colw,colh, txt='Payment Info:',ln=True, align='L' )   
+
+     pdf.set_font("Arial",size=19, style='B')
+     pdf.set_xy(col1x+115,col1y+180)
+     pdf.cell(colw,colh, txt='Payment Due:',ln=True, align='L' )   
+
+     pdf.set_font("Arial",size=15)
+     pdf.set_xy(col1x+15,col1y+192)
+     pdf.cell(colw,colh, txt='Account Name:',ln=True, align='L' )    
+   
+     pdf.set_font("Arial",size=15)
+     pdf.set_xy(col1x+52,col1y+192)
+     pdf.cell(colw,colh, txt=name,ln=True, align='L' )
+
+     pdf.set_font("Arial",size=15)
+     pdf.set_xy(col1x+15,col1y+200)
+     pdf.cell(colw,colh, txt='Account Number:',ln=True, align='L' )      
+
+     pdf.set_font("Arial",size=15)
+     pdf.set_xy(col1x+57,col1y+200)
+     pdf.cell(colw,colh, txt=num,ln=True, align='L' )      
+
+
+     pdf.set_font("Arial",size=15)
+     pdf.set_xy(col1x+15,col1y+208)
+     pdf.cell(colw,colh, txt='Bank Name:  UAE Bank',ln=True, align='L' )      
+
+     pdf.set_font("Arial",size=19, style='B')
+     pdf.set_xy(col1x+129,col1y+195)
+     pdf.cell(colw,colh, txt=f'${nTotal}',ln=True, align='L' )      
 
      #pdf.set_font('Arial', size=15 )
     # pdf.set_xy(col)
@@ -184,7 +221,7 @@ if st.button(":blue[View Invoice]"):
 
 
      #Generate the HTML to embed the PDF
-     pdf_embed = f'<embed src="data:application/pdf;base64,{pdf_base64}" type="application/pdf" width="100%" height="600px" />'
+     pdf_embed = f'<embed src="data:application/pdf;base64,{pdf_base64}" type="application/pdf" width="60%" height="600px" />'
 
 
      #Display the embedded pdf (Markdown helps us use HTML in streamlit)
