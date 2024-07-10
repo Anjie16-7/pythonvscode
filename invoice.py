@@ -19,9 +19,9 @@ with col5:
     day=date.day
     month=date.strftime('%B')
     year=date.year
-    date=f'{day}{month}{year}'
+    date=f'{day} {month} {year}'
     due= st.date_input("Due Date:")
-    
+   
 
 
 col6,col7,col8,col9=st.columns(4)
