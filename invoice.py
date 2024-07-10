@@ -72,7 +72,7 @@ def generate_pdf():
 
 
      #Add image
-     pdf.image("Logo.png",x=col1x, y=col1y, w=45)
+     pdf.image("logo.png",x=col1x, y=col1y, w=45)
      pdf.set_font("Arial", size=21, style='B')
 
      pdf.set_xy(col1x+140,col1y+15)
