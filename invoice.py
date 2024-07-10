@@ -16,9 +16,12 @@ with col4:
 with col5:
     num=st.text_input('Invoice#:', placeholder="Invoice Number")
     date= st.date_input('Invoice Date:')
-    ndate=str(date)
+    day=date.day
+    month=date.strftime('%B')
+    year=date.year
+    date=f'{day}{month}{year}'
     due= st.date_input("Due Date:")
-    ndue= str(due)
+    
 
 
 col6,col7,col8,col9=st.columns(4)
@@ -117,7 +120,7 @@ def generate_pdf():
 
      pdf.set_font("Arial",size=15)
      pdf.set_xy(col1x+150,col1y+95)
-     pdf.cell(colw,colh, txt=ndate,ln=True, align='L' )
+     pdf.cell(colw,colh, txt=date,ln=True, align='L' )
 
      pdf.set_font("Arial",size=15)
      pdf.set_xy(col1x+15,col1y+216)
@@ -125,7 +128,7 @@ def generate_pdf():
 
      pdf.set_font("Arial",size=15)
      pdf.set_xy(col1x+45,col1y+216)
-     pdf.cell(colw,colh, txt=ndue,ln=True, align='L' )
+     pdf.cell(colw,colh, txt=due,ln=True, align='L' )
 
 
      pdf.set_font("Arial",size=15, style='B')
