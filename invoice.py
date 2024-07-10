@@ -1,6 +1,6 @@
 import streamlit as st
 from fpdf import FPDF
-import base64 # convert python binary to printable characters
+import base64 # convert python binary to printable characters 
 col1,col2,col3=st.columns(3)
 with col3:
     st.title("Invoice")
