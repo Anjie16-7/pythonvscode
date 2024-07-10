@@ -215,18 +215,22 @@ with open(pdf_func, 'rb') as binary:
      pdf_data = binary.read()
 
 
-if st.button(":blue[View Invoice]"):
+#if st.button(":blue[View Invoice]"):
      #Write the PDF using base64
-     pdf_base64 = base64.b64encode(pdf_data).decode('utf-8')
+ #    pdf_base64 = base64.b64encode(pdf_data).decode('utf-8')
 
 
      #Generate the HTML to embed the PDF
-     pdf_embed = f'<embed src="data:application/pdf;base64,{pdf_base64}" type="application/pdf" width="60%" height="600px" />'
+  #   pdf_embed = f'<embed src="data:application/pdf;base64,{pdf_base64}" type="application/pdf" width="60%" height="600px" />'
 
 
      #Display the embedded pdf (Markdown helps us use HTML in streamlit)
-     st.markdown(pdf_embed,unsafe_allow_html=True)
-
-
+   #  st.markdown(pdf_embed,unsafe_allow_html=True)
+col1,col2,col3=st.columns(3)
+with col1:
+    if name and address and num and date and due and descript and quantity and Price:
+        st.download_button(label='Download PDF', data=pdf_data, file_name='aishainvoice.pdf', mime='application/pdf')
+    else:
+        st.error('Kindly Fill in the boxes')
 
 
