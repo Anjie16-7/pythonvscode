@@ -167,7 +167,7 @@ def generate_pdf():
 
      pdf.set_font("Arial",size=15)
      pdf.set_xy(col1x+164,col1y+135)
-     pdf.cell(colw,colh, txt=f'${nTotal}',ln=True, align='L')
+     pdf.cell(colw,colh, txt=f'${Total}',ln=True, align='L')
      
      pdf.set_line_width(0.5) #set the width of the line
      pdf.line(col1x+10, col1y+135,col1x+180,col1y+135) 
@@ -204,7 +204,7 @@ def generate_pdf():
 
      pdf.set_font("Arial",size=19, style='B')
      pdf.set_xy(col1x+129,col1y+195)
-     pdf.cell(colw,colh, txt=f'${nTotal}',ln=True, align='L' )      
+     pdf.cell(colw,colh, txt=f'${Total}',ln=True, align='L' )      
 
      #pdf.set_font('Arial', size=15 )
     # pdf.set_xy(col)
