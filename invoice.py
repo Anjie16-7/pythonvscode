@@ -20,8 +20,15 @@ with col5:
     month=date.strftime('%B')
     year=date.year
     date=f'{day} {month} {year}'
+    
+    
+    
+    
     due= st.date_input("Due Date:")
-   
+    dday=due.day
+    dmonth=due.strftime('%B')
+    dyear=due.year
+    due=f'{day} {month} {year}'
 
 
 col6,col7,col8,col9=st.columns(4)
@@ -30,16 +37,15 @@ with col6:
 with col7:
      
     quantity=st.number_input("Quantity",0,100)
-    nquantity=str(quantity)
+  
      
     
 with col8:
     Price= st.number_input("Price per Unit")
-    nPrice=str(Price)
 with col9:    
     Total= quantity*Price
     show= st.text_input("Total Price",Total)
-    nTotal=str(Total)
+
 st.divider()
 col10, col11=st.columns(2)
 with col10:
@@ -100,11 +106,11 @@ def generate_pdf():
 
      pdf.set_font("Arial",size=15)
      pdf.set_xy(col1x+33,col1y+85)
-     pdf.cell(colw,colh, txt=name,ln=True, align='L' )
+     pdf.cell(colw,colh, txt=f'{name}',ln=True, align='L' )
 
      pdf.set_font("Arial",size=15)
      pdf.set_xy(col1x+15,col1y+95)
-     pdf.cell(colw,colh, txt=address,ln=True, align='L' )
+     pdf.cell(colw,colh, txt=f'{address}',ln=True, align='L' )
 
      pdf.set_font("Arial",size=15, style='B')
      pdf.set_xy(col1x+109,col1y+85)
@@ -112,7 +118,7 @@ def generate_pdf():
      
      pdf.set_font("Arial",size=15)
      pdf.set_xy(col1x+155,col1y+85)
-     pdf.cell(colw,colh, txt=num,ln=True, align='L' )
+     pdf.cell(colw,colh, txt=f'{num}',ln=True, align='L' )
 
      pdf.set_font("Arial",size=15, style='B')
      pdf.set_xy(col1x+109,col1y+95)
@@ -120,7 +126,7 @@ def generate_pdf():
 
      pdf.set_font("Arial",size=15)
      pdf.set_xy(col1x+150,col1y+95)
-     pdf.cell(colw,colh, txt=date,ln=True, align='L' )
+     pdf.cell(colw,colh, txt=f'{date}',ln=True, align='L' )
 
      pdf.set_font("Arial",size=15)
      pdf.set_xy(col1x+15,col1y+216)
@@ -128,7 +134,7 @@ def generate_pdf():
 
      pdf.set_font("Arial",size=15)
      pdf.set_xy(col1x+45,col1y+216)
-     pdf.cell(colw,colh, txt=due,ln=True, align='L' )
+     pdf.cell(colw,colh, txt=f'{due}',ln=True, align='L' )
 
 
      pdf.set_font("Arial",size=15, style='B')
@@ -137,7 +143,7 @@ def generate_pdf():
 
      pdf.set_font("Arial",size=15)
      pdf.set_xy(col1x+15,col1y+135)
-     pdf.cell(colw,colh, txt=descript,ln=True, align='L')
+     pdf.cell(colw,colh, txt=f'{descript}',ln=True, align='L')
 
      pdf.set_font("Arial",size=15, style='B')
      pdf.set_xy(col1x+75,col1y+125)
@@ -145,7 +151,7 @@ def generate_pdf():
 
      pdf.set_font("Arial",size=15)
      pdf.set_xy(col1x+85,col1y+135)
-     pdf.cell(colw,colh, txt=nquantity,ln=True, align='L')
+     pdf.cell(colw,colh, txt=f'{quantity}',ln=True, align='L')
 
      pdf.set_font("Arial",size=15, style='B')
      pdf.set_xy(col1x+110,col1y+125)
@@ -153,7 +159,7 @@ def generate_pdf():
 
      pdf.set_font("Arial",size=15)
      pdf.set_xy(col1x+120,col1y+135)
-     pdf.cell(colw,colh, txt=nPrice,ln=True, align='L')
+     pdf.cell(colw,colh, txt=f'{Price}',ln=True, align='L')
 
      pdf.set_font("Arial",size=15, style='B')
      pdf.set_xy(col1x+165,col1y+125)
