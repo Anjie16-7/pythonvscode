@@ -2,13 +2,45 @@ import streamlit as st
 from fpdf import FPDF
 import base64 # convert python binary to printable characters 
 
+st.set_page_config(page_title='Invoice Generator', page_icon="📕",layout="centered", initial_sidebar_state="expanded")
+import pandas as pd
+csvlink= pd.read_csv('invoice.csv')
 menu= st.sidebar.selectbox("Menu", ['Invoice',"Change Details"])
 
 if menu == 'Change Details':
-    pass
+    #logo, name, addr, country, bank name, acc name, number,
+
+    l1,l2,l3 = st.columns([1,2,1])
+    with l2:
+        logo = st.file_uploader("Change your logo here", type=['jpg','png', 'jpeg'])
+
+    left,right = st.columns(2)
+    with left:
+        cname = st.text_input ("Change company name here")
+        ccountry = st.text_input("Change company country here")
+        accname = st.text_input ("Change account name here")
+ 
+    with right:
+        caddress = st.text_input("Change company address here")
+        bankname = st.text_input("Change bank name here")
+        accnumber = st.text_input("Change account number here")
+    if st.button("Save Changes"):
+        dict={"Name":[cname],"Country":[ccountry],"Account Name":[accname],"Company Address":[caddress],"Bank Name":[bankname],"Account Number":[accnumber]}
+        table = pd.DataFrame(dict)
+        table.to_csv('invoice.csv',index=False)
+        s1,s2,s3=st.columns(3)
+        with s1:
+            st.success("Details Have Been Changed")
+        
+            
 
 if menu=='Invoice':
-
+    cname2=csvlink['Name'].iloc[0]
+    ccountry2=csvlink['Country'].iloc[0]
+    accname2=csvlink['Account Name'].iloc[0]
+    caddress2=csvlink['Company Address'].iloc[0]
+    bankname2=csvlink['Bank Name'].iloc[0]
+    accnumber2=csvlink['Account Number'].iloc[0]
     st.sidebar.write("OPTIONAL")
     tax = st.sidebar.number_input("Enter tax %",0.0,100.0)
     discount = st.sidebar.number_input("Enter discount %",0.0,100.0)
@@ -19,9 +51,9 @@ if menu=='Invoice':
         st.title("Invoice")
     with col1:
         logo = st.image("logo.png",120,120)
-    st.write('Lily Corporation')
-    st.write('237 Avenue Street, Al Barsha')
-    st.write("Dubai,UAE")
+    st.write(cname2)
+    st.write(caddress2)
+    st.write(ccountry2)
     col4,col5=st.columns(2)
     with col4:
         name=st.text_input("Bill to:",placeholder='Customer Name', )
@@ -67,9 +99,9 @@ if menu=='Invoice':
     col10, col11=st.columns(2)
     with col10:
         st.subheader("Payment info")
-        sname= st.write("Acc Name:",name)
-        snum= st.write("Acc Number:",num)
-        st.write("Bank Name: UAE Bank",)
+        sname= st.write("Acc Name:",accname2)
+        snum= st.write("Acc Number:",accnumber2)
+        st.write("Bank Name:",bankname2)
     with col11:
         st.write("Payment Due")
         pdue= Total + tans - dans
