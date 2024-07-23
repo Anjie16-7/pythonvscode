@@ -1,0 +1,4 @@
+Name,Age,Address,Email,Bank Name,Amount Borrowed,Interest(%),Interest Owed,Total Owed,Date Borrowed
+b,hjk,"k,",1000.0,,12.0,360.0,1360.0,2021-07-08,
+22,b,c,d,100.0,,5.0,10.0,110.0,2022-07-07
+a,22,df,fg,gh,100.0,9.0,18.0,118.0,2022-07-07

@@ -34,6 +34,7 @@ if menu == "Register":
         table2.to_csv("employ.csv",index=False)
 space=' '
 if menu=='Database':
+    
     st.title(":orange[Database]")
     st.table(csvlink)
 
