@@ -8,39 +8,79 @@ csvlink= pd.read_csv('invoice.csv')
 menu= st.sidebar.selectbox("Menu", ['Invoice',"Change Details"])
 
 if menu == 'Change Details':
+    pw=st.sidebar.text_input("Enter Password",type='password')
     #logo, name, addr, country, bank name, acc name, number,
-
-    l1,l2,l3 = st.columns([1,2,1])
-    with l2:
-        logo = st.file_uploader("Change your logo here", type=['jpg','png', 'jpeg'])
-
-    left,right = st.columns(2)
-    with left:
-        cname = st.text_input ("Change company name here")
-        ccountry = st.text_input("Change company country here")
-        accname = st.text_input ("Change account name here")
- 
-    with right:
-        caddress = st.text_input("Change company address here")
-        bankname = st.text_input("Change bank name here")
-        accnumber = st.text_input("Change account number here")
-    if st.button("Save Changes"):
-        dict={"Name":[cname],"Country":[ccountry],"Account Name":[accname],"Company Address":[caddress],"Bank Name":[bankname],"Account Number":[accnumber]}
-        table = pd.DataFrame(dict)
-        table.to_csv('invoice.csv',index=False)
-        s1,s2,s3=st.columns(3)
-        with s1:
-            st.success("Details Have Been Changed")
-        
+    if pw=='1234':
+        l1,l2,l3 = st.columns([1,2,1])
+        with l2:
+            logo = st.file_uploader("Change your logo here", type=['jpg','png', 'jpeg'])
+            if st.button("Save Image"):
+                if logo:
+                    with open("logo.jpg",'wb') as writename:
+                        writename.write(logo.getbuffer())
+                else:
+                    st.write("Please upload an image")
+                
+            left,right = st.columns(2)
+        with left:
+            cname = st.text_input ("Change company name here")
+            ccountry = st.text_input("Change company country here")
+            accname = st.text_input ("Change account name here")
+    
+        with right:
+            caddress = st.text_input("Change company address here")
+            bankname = st.text_input("Change bank name here")
+            accnumber = st.text_input("Change account number here")
+        if st.button("Save Changes"):
+           # detailsdict={"Name":[cname],"Country":[ccountry],"Account Name":[accname],"Company Address":[caddress],"Bank Name":[bankname],"Account Number":[accnumber]}
             
 
+            
+            detailsdict={}
+            if cname:
+                detailsdict['Name']=[cname]
+            else:
+                detailsdict['Name']=csvlink['Name'].iloc[0]
+            if ccountry:
+                detailsdict['Country']=[ccountry]
+            else:
+                detailsdict['Country']=csvlink['Country'].iloc[0]
+            if accname:
+                detailsdict['Account Name']=[accname]
+            else:
+                detailsdict['Account Name']=csvlink['Account Name'].iloc[0]
+            if caddress:
+                detailsdict['Company Address']=[caddress]
+            else:
+                detailsdict['Company Address']=csvlink['Company Address'].iloc[0]
+            if bankname:
+                detailsdict['Bank Name']=[bankname]
+            else:
+                detailsdict['Bank Name']=csvlink['Bank Name'].iloc[0]
+            if accnumber:
+                detailsdict['Account Number']=[accnumber]
+            else:
+                detailsdict['Account Number']=csvlink['Account Number'].iloc[0]
+            table = pd.DataFrame(detailsdict)
+            table.to_csv('invoice.csv',index=False)
+            
+            s1,s2,s3=st.columns(3)
+            with s1:
+                st.success("Details Have Been Changed")
+                
+
+            
+                
+
 if menu=='Invoice':
-    cname2=csvlink['Name'].iloc[0]
-    ccountry2=csvlink['Country'].iloc[0]
-    accname2=csvlink['Account Name'].iloc[0]
-    caddress2=csvlink['Company Address'].iloc[0]
-    bankname2=csvlink['Bank Name'].iloc[0]
-    accnumber2=csvlink['Account Number'].iloc[0]
+
+    cname2=csvlink["Name"].iloc[0]
+    ccountry2=csvlink["Country"].iloc[0]
+    caddress2=csvlink["Company Address"].iloc[0]
+    bankname2=csvlink["Bank Name"].iloc[0]
+    accnumber2=csvlink["Account Number"].iloc[0]
+    accname2=csvlink["Account Name"].iloc[0]
+    
     st.sidebar.write("OPTIONAL")
     tax = st.sidebar.number_input("Enter tax %",0.0,100.0)
     discount = st.sidebar.number_input("Enter discount %",0.0,100.0)
@@ -50,10 +90,10 @@ if menu=='Invoice':
     with col3:
         st.title("Invoice")
     with col1:
-        logo = st.image("logo.png",120,120)
+        logo = st.image("logo.jpg",120,120)
     st.write(cname2)
-    st.write(caddress2)
     st.write(ccountry2)
+    st.write(caddress2)
     col4,col5=st.columns(2)
     with col4:
         name=st.text_input("Bill to:",placeholder='Customer Name', )
@@ -131,7 +171,7 @@ if menu=='Invoice':
 
 
         #Add image
-        pdf.image("logo.png",x=col1x, y=col1y, w=45)
+        pdf.image("logo.jpg",x=col1x, y=col1y, w=45)
         pdf.set_font("Arial", size=21, style='B')
 
         pdf.set_xy(col1x+140,col1y+15)
@@ -139,15 +179,15 @@ if menu=='Invoice':
 
         pdf.set_font("Arial",size=15)
         pdf.set_xy(col1x+15,col1y+40)
-        pdf.cell(colw,colh, txt='Lily Corporation:',ln=True, align='L' )
+        pdf.cell(colw,colh, txt=f'{cname2}',ln=True, align='L' )
 
         pdf.set_font("Arial",size=15)
         pdf.set_xy(col1x+15,col1y+50)
-        pdf.cell(colw,colh, txt='237 Avenue Street, Al Barsha',ln=True, align='L' )
+        pdf.cell(colw,colh, txt=f'{caddress2}',ln=True, align='L' )
 
         pdf.set_font("Arial",size=15)
         pdf.set_xy(col1x+15,col1y+60)
-        pdf.cell(colw,colh, txt='Dubai UAE',ln=True, align='L' )
+        pdf.cell(colw,colh, txt=f'{ccountry2}',ln=True, align='L' )
 
         pdf.set_font("Arial",size=15, style='B')
         pdf.set_xy(col1x+15,col1y+85)
@@ -245,13 +285,17 @@ if menu=='Invoice':
 
         pdf.set_font("Arial",size=15)
         pdf.set_xy(col1x+57,col1y+200)
-        pdf.cell(colw,colh, txt=num,ln=True, align='L' )      
+        pdf.cell(colw,colh, txt=f'{accnumber2}',ln=True, align='L' )      
 
 
         pdf.set_font("Arial",size=15)
         pdf.set_xy(col1x+15,col1y+208)
-        pdf.cell(colw,colh, txt='Bank Name:  UAE Bank',ln=True, align='L' )      
+        pdf.cell(colw,colh, txt='Bank Name:',ln=True, align='L' )
 
+        pdf.set_font("Arial",size=15)
+        pdf.set_xy(col1x+24,col1y+208)
+        pdf.cell(colw,colh, txt=f'{bankname2}',ln=True, align='L' )      
+        
         pdf.set_font("Arial",size=19, style='B')
         pdf.set_xy(col1x+129,col1y+195)
         pdf.cell(colw,colh, txt=f'${pdue:,}',ln=True, align='L' )      
@@ -308,7 +352,6 @@ if menu=='Invoice':
             st.download_button(label='Download PDF', data=pdf_data, file_name='aishainvoice.pdf', mime='application/pdf')
         else:
             st.error('Kindly Fill in the boxes')
-
 
 
 
