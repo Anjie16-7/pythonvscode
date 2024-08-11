@@ -1,2 +1,5 @@
-Name,Age
-Ais,21
+Name,Maths,English,Biology,French,Chemistry,Total,Average
+Aisha,98,82,100,82,97,459,91.8
+Faisal,98,100,100,82,100,480,96.0
+John,62,88,78,100,54,382,76.4
+Peter,100,98,45,30,65,338,67.6

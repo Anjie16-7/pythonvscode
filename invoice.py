@@ -6,7 +6,7 @@ st.set_page_config(page_title='Invoice Generator', page_icon="📕",layout="cent
 import pandas as pd
 csvlink= pd.read_csv('invoice.csv')
 menu= st.sidebar.selectbox("Menu", ['Invoice',"Change Details"])
-
+image_url=https://github.com/Anjie16-7/pythonvscode/blob/main/logo.jpg?raw=true
 if menu == 'Change Details':
     pw=st.sidebar.text_input("Enter Password",type='password')
     #logo, name, addr, country, bank name, acc name, number,

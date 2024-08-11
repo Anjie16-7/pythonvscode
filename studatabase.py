@@ -1,5 +1,6 @@
 import streamlit as st 
 import pandas as pd
+import plotly.express as px
 st.set_page_config(layout='wide')
 
 
@@ -43,12 +44,28 @@ if selectmenu=='Scores':
             st.success("Students scores submitted to Database")
         dict={"Name":[name],"Maths":[maths],"English":[eng],"Biology":[bio],"French":[fre],"Chemistry":[chem],"Total":[total],"Average":[ave]}
         table=pd.DataFrame(dict)
-        st.table(table)
+        #st.table(table)
         table2= pd.concat([csvlink,table],ignore_index=True)#merges the data shown for intial input and puts in csv table and saves it
         table2.to_csv("score.csv",index=False)#to ignore the idex positions
 
 if selectmenu=="Database":
-   st.title("Student Database")
-   st.table(csvlink)
-
-
+    st.title("Student Database")
+    st.table(csvlink)
+    subjects = ['Maths', 'English', 'Biology', 'French', 'Chemistry']
+    
+    subjectstable = csvlink[subjects].mean().reset_index()
+    renamedcolumns = subjectstable.rename(columns={'index': 'Subject',0:'Average'})
+    # st.table(renamedcolumns)
+    
+    barchart = px.bar(renamedcolumns,x='Subject',y='Average')
+    piechart = px.pie(renamedcolumns, names='Subject', values='Average')
+    s1,s2,s3=st.columns(3)
+    with s1:
+        chosebc=st.selectbox("Charts",['barchart','piechart'])
+    if chosebc=='barchart':
+        
+           
+        
+        st.plotly_chart(barchart)
+    if chosebc=='piechart':
+        st.plotly_chart(piechart)
