@@ -1,0 +1,595 @@
+Season,Date,Team,Opponent,Team G,Opp G,Win Loss,Points
+2018-19, 8/25/2018 ,Augsburg,Fortuna Dusseldorf,2,1,Win,3
+2018-19, 9/1/2018 ,Augsburg,M'gladbach,1,1,Draw,1
+2018-19, 9/15/2018 ,Augsburg,Mainz,1,2,Loss,0
+2018-19, 9/22/2018 ,Augsburg,Werder Bremen,2,3,Loss,0
+2018-19, 9/25/2018 ,Augsburg,Bayern Munich,1,1,Draw,1
+2018-19, 9/30/2018 ,Augsburg,Freiburg,4,1,Win,3
+2018-19, 10/6/2018 ,Augsburg,Dortmund,3,4,Loss,0
+2018-19, 10/20/2018 ,Augsburg,RB Leipzig,0,0,Draw,1
+2018-19, 10/27/2018 ,Augsburg,Hannover,2,1,Win,3
+2018-19, 11/3/2018 ,Augsburg,Nurnberg,2,2,Draw,1
+2018-19, 11/10/2018 ,Augsburg,Hoffenheim,1,2,Loss,0
+2018-19, 11/24/2018 ,Augsburg,Ein Frankfurt,1,3,Loss,0
+2018-19, 12/1/2018 ,Augsburg,Stuttgart,0,1,Loss,0
+2018-19, 12/8/2018 ,Augsburg,Leverkusen,0,1,Loss,0
+2018-19, 12/15/2018 ,Augsburg,Schalke 04,1,1,Draw,1
+2018-19, 12/18/2018 ,Augsburg,Hertha,2,2,Draw,1
+2018-19, 12/23/2018 ,Augsburg,Wolfsburg,2,3,Loss,0
+2018-19, 1/19/2019 ,Augsburg,Fortuna Dusseldorf,1,2,Loss,0
+2018-19, 1/26/2019 ,Augsburg,M'gladbach,0,2,Loss,0
+2018-19, 2/3/2019 ,Augsburg,Mainz,3,0,Win,3
+2018-19, 2/10/2019 ,Augsburg,Werder Bremen,0,4,Loss,0
+2018-19, 2/15/2019 ,Augsburg,Bayern Munich,2,3,Loss,0
+2018-19, 2/23/2019 ,Augsburg,Freiburg,1,5,Loss,0
+2018-19, 3/1/2019 ,Augsburg,Dortmund,2,1,Win,3
+2018-19, 3/9/2019 ,Augsburg,RB Leipzig,0,0,Draw,1
+2018-19, 3/16/2019 ,Augsburg,Hannover,3,1,Win,3
+2018-19, 3/30/2019 ,Augsburg,Nurnberg,0,3,Loss,0
+2018-19, 4/7/2019 ,Augsburg,Hoffenheim,0,4,Loss,0
+2018-19, 4/14/2019 ,Augsburg,Ein Frankfurt,3,1,Win,3
+2018-19, 4/20/2019 ,Augsburg,Stuttgart,6,0,Win,3
+2018-19, 4/26/2019 ,Augsburg,Leverkusen,1,4,Loss,0
+2018-19, 5/5/2019 ,Augsburg,Schalke 04,0,0,Draw,1
+2018-19, 5/11/2019 ,Augsburg,Hertha,3,4,Loss,0
+2018-19, 8/24/2018 ,Bayern Munich,Hoffenheim,3,1,Win,3
+2018-19, 9/1/2018 ,Bayern Munich,Stuttgart,3,0,Win,3
+2018-19, 9/15/2018 ,Bayern Munich,Leverkusen,3,1,Win,3
+2018-19, 9/22/2018 ,Bayern Munich,Schalke 04,2,0,Win,3
+2018-19, 9/25/2018 ,Bayern Munich,Augsburg,1,1,Draw,1
+2018-19, 9/28/2018 ,Bayern Munich,Hertha,0,2,Loss,0
+2018-19, 10/6/2018 ,Bayern Munich,M'gladbach,0,3,Loss,0
+2018-19, 10/20/2018 ,Bayern Munich,Wolfsburg,3,1,Win,3
+2018-19, 10/27/2018 ,Bayern Munich,Mainz,2,1,Win,3
+2018-19, 11/3/2018 ,Bayern Munich,Freiburg,1,1,Draw,1
+2018-19, 11/10/2018 ,Bayern Munich,Dortmund,2,3,Loss,0
+2018-19, 11/24/2018 ,Bayern Munich,Fortuna Dusseldorf,3,3,Draw,1
+2018-19, 12/1/2018 ,Bayern Munich,Werder Bremen,2,1,Win,3
+2018-19, 12/8/2018 ,Bayern Munich,Nurnberg,3,0,Win,3
+2018-19, 12/15/2018 ,Bayern Munich,Hannover,4,0,Win,3
+2018-19, 12/19/2018 ,Bayern Munich,RB Leipzig,1,0,Win,3
+2018-19, 12/22/2018 ,Bayern Munich,Ein Frankfurt,3,0,Win,3
+2018-19, 1/18/2019 ,Bayern Munich,Hoffenheim,3,1,Win,3
+2018-19, 1/27/2019 ,Bayern Munich,Stuttgart,4,1,Win,3
+2018-19, 2/2/2019 ,Bayern Munich,Leverkusen,1,3,Loss,0
+2018-19, 2/9/2019 ,Bayern Munich,Schalke 04,3,1,Win,3
+2018-19, 2/15/2019 ,Bayern Munich,Augsburg,3,2,Win,3
+2018-19, 2/23/2019 ,Bayern Munich,Hertha,1,0,Win,3
+2018-19, 3/2/2019 ,Bayern Munich,M'gladbach,5,1,Win,3
+2018-19, 3/9/2019 ,Bayern Munich,Wolfsburg,6,0,Win,3
+2018-19, 3/17/2019 ,Bayern Munich,Mainz,6,0,Win,3
+2018-19, 3/30/2019 ,Bayern Munich,Freiburg,1,1,Draw,1
+2018-19, 4/6/2019 ,Bayern Munich,Dortmund,5,0,Win,3
+2018-19, 4/14/2019 ,Bayern Munich,Fortuna Dusseldorf,4,1,Win,3
+2018-19, 4/20/2019 ,Bayern Munich,Werder Bremen,1,0,Win,3
+2018-19, 4/28/2019 ,Bayern Munich,Nurnberg,1,1,Draw,1
+2018-19, 5/4/2019 ,Bayern Munich,Hannover,3,1,Win,3
+2018-19, 5/11/2019 ,Bayern Munich,RB Leipzig,0,0,Draw,1
+2018-19, 8/26/2018 ,Dortmund,RB Leipzig,4,1,Win,3
+2018-19, 8/31/2018 ,Dortmund,Hannover,0,0,Draw,1
+2018-19, 9/14/2018 ,Dortmund,Ein Frankfurt,3,1,Win,3
+2018-19, 9/22/2018 ,Dortmund,Hoffenheim,1,1,Draw,1
+2018-19, 9/26/2018 ,Dortmund,Nurnberg,7,0,Win,3
+2018-19, 9/29/2018 ,Dortmund,Leverkusen,4,2,Win,3
+2018-19, 10/6/2018 ,Dortmund,Augsburg,4,3,Win,3
+2018-19, 10/20/2018 ,Dortmund,Stuttgart,4,0,Win,3
+2018-19, 10/27/2018 ,Dortmund,Hertha,2,2,Draw,1
+2018-19, 11/3/2018 ,Dortmund,Wolfsburg,1,0,Win,3
+2018-19, 11/10/2018 ,Dortmund,Bayern Munich,3,2,Win,3
+2018-19, 11/24/2018 ,Dortmund,Mainz,2,1,Win,3
+2018-19, 12/1/2018 ,Dortmund,Freiburg,2,0,Win,3
+2018-19, 12/8/2018 ,Dortmund,Schalke 04,2,1,Win,3
+2018-19, 12/15/2018 ,Dortmund,Werder Bremen,2,1,Win,3
+2018-19, 12/18/2018 ,Dortmund,Fortuna Dusseldorf,1,2,Loss,0
+2018-19, 12/21/2018 ,Dortmund,M'gladbach,2,1,Win,3
+2018-19, 1/19/2019 ,Dortmund,RB Leipzig,1,0,Win,3
+2018-19, 1/26/2019 ,Dortmund,Hannover,5,1,Win,3
+2018-19, 2/2/2019 ,Dortmund,Ein Frankfurt,1,1,Draw,1
+2018-19, 2/9/2019 ,Dortmund,Hoffenheim,3,3,Draw,1
+2018-19, 2/18/2019 ,Dortmund,Nurnberg,0,0,Draw,1
+2018-19, 2/24/2019 ,Dortmund,Leverkusen,3,2,Win,3
+2018-19, 3/1/2019 ,Dortmund,Augsburg,1,2,Loss,0
+2018-19, 3/9/2019 ,Dortmund,Stuttgart,3,1,Win,3
+2018-19, 3/16/2019 ,Dortmund,Hertha,3,2,Win,3
+2018-19, 3/30/2019 ,Dortmund,Wolfsburg,2,0,Win,3
+2018-19, 4/6/2019 ,Dortmund,Bayern Munich,0,5,Loss,0
+2018-19, 4/13/2019 ,Dortmund,Mainz,2,1,Win,3
+2018-19, 4/21/2019 ,Dortmund,Freiburg,4,0,Win,3
+2018-19, 4/27/2019 ,Dortmund,Schalke 04,2,4,Loss,0
+2018-19, 5/4/2019 ,Dortmund,Werder Bremen,2,2,Draw,1
+2018-19, 5/11/2019 ,Dortmund,Fortuna Dusseldorf,3,2,Win,3
+2018-19, 8/25/2018 ,Ein Frankfurt,Freiburg,2,0,Win,3
+2018-19, 9/1/2018 ,Ein Frankfurt,Werder Bremen,1,2,Loss,0
+2018-19, 9/14/2018 ,Ein Frankfurt,Dortmund,1,3,Loss,0
+2018-19, 9/23/2018 ,Ein Frankfurt,RB Leipzig,1,1,Draw,1
+2018-19, 9/26/2018 ,Ein Frankfurt,M'gladbach,1,3,Loss,0
+2018-19, 9/30/2018 ,Ein Frankfurt,Hannover,4,1,Win,3
+2018-19, 10/7/2018 ,Ein Frankfurt,Hoffenheim,2,1,Win,3
+2018-19, 10/19/2018 ,Ein Frankfurt,Fortuna Dusseldorf,7,1,Win,3
+2018-19, 10/28/2018 ,Ein Frankfurt,Nurnberg,1,1,Draw,1
+2018-19, 11/2/2018 ,Ein Frankfurt,Stuttgart,3,0,Win,3
+2018-19, 11/11/2018 ,Ein Frankfurt,Schalke 04,3,0,Win,3
+2018-19, 11/24/2018 ,Ein Frankfurt,Augsburg,3,1,Win,3
+2018-19, 12/2/2018 ,Ein Frankfurt,Wolfsburg,1,2,Loss,0
+2018-19, 12/8/2018 ,Ein Frankfurt,Hertha,0,1,Loss,0
+2018-19, 12/16/2018 ,Ein Frankfurt,Leverkusen,2,1,Win,3
+2018-19, 12/19/2018 ,Ein Frankfurt,Mainz,2,2,Draw,1
+2018-19, 12/22/2018 ,Ein Frankfurt,Bayern Munich,0,3,Loss,0
+2018-19, 1/19/2019 ,Ein Frankfurt,Freiburg,3,1,Win,3
+2018-19, 1/26/2019 ,Ein Frankfurt,Werder Bremen,2,2,Draw,1
+2018-19, 2/2/2019 ,Ein Frankfurt,Dortmund,1,1,Draw,1
+2018-19, 2/9/2019 ,Ein Frankfurt,RB Leipzig,0,0,Draw,1
+2018-19, 2/17/2019 ,Ein Frankfurt,M'gladbach,1,1,Draw,1
+2018-19, 2/24/2019 ,Ein Frankfurt,Hannover,3,0,Win,3
+2018-19, 3/2/2019 ,Ein Frankfurt,Hoffenheim,3,2,Win,3
+2018-19, 3/11/2019 ,Ein Frankfurt,Fortuna Dusseldorf,3,0,Win,3
+2018-19, 3/17/2019 ,Ein Frankfurt,Nurnberg,1,0,Win,3
+2018-19, 3/31/2019 ,Ein Frankfurt,Stuttgart,3,0,Win,3
+2018-19, 4/6/2019 ,Ein Frankfurt,Schalke 04,2,1,Win,3
+2018-19, 4/14/2019 ,Ein Frankfurt,Augsburg,1,3,Loss,0
+2018-19, 4/22/2019 ,Ein Frankfurt,Wolfsburg,1,1,Draw,1
+2018-19, 4/27/2019 ,Ein Frankfurt,Hertha,0,0,Draw,1
+2018-19, 5/5/2019 ,Ein Frankfurt,Leverkusen,1,6,Loss,0
+2018-19, 5/12/2019 ,Ein Frankfurt,Mainz,0,2,Loss,0
+2018-19, 8/25/2018 ,Fortuna Dusseldorf,Augsburg,1,2,Loss,0
+2018-19, 9/2/2018 ,Fortuna Dusseldorf,RB Leipzig,1,1,Draw,1
+2018-19, 9/15/2018 ,Fortuna Dusseldorf,Hoffenheim,2,1,Win,3
+2018-19, 9/21/2018 ,Fortuna Dusseldorf,Stuttgart,0,0,Draw,1
+2018-19, 9/26/2018 ,Fortuna Dusseldorf,Leverkusen,1,2,Loss,0
+2018-19, 9/29/2018 ,Fortuna Dusseldorf,Nurnberg,0,3,Loss,0
+2018-19, 10/6/2018 ,Fortuna Dusseldorf,Schalke 04,0,2,Loss,0
+2018-19, 10/19/2018 ,Fortuna Dusseldorf,Ein Frankfurt,1,7,Loss,0
+2018-19, 10/27/2018 ,Fortuna Dusseldorf,Wolfsburg,0,3,Loss,0
+2018-19, 11/4/2018 ,Fortuna Dusseldorf,M'gladbach,0,3,Loss,0
+2018-19, 11/10/2018 ,Fortuna Dusseldorf,Hertha,4,1,Win,3
+2018-19, 11/24/2018 ,Fortuna Dusseldorf,Bayern Munich,3,3,Draw,1
+2018-19, 11/30/2018 ,Fortuna Dusseldorf,Mainz,0,1,Loss,0
+2018-19, 12/7/2018 ,Fortuna Dusseldorf,Werder Bremen,1,3,Loss,0
+2018-19, 12/15/2018 ,Fortuna Dusseldorf,Freiburg,2,0,Win,3
+2018-19, 12/18/2018 ,Fortuna Dusseldorf,Dortmund,2,1,Win,3
+2018-19, 12/22/2018 ,Fortuna Dusseldorf,Hannover,1,0,Win,3
+2018-19, 1/19/2019 ,Fortuna Dusseldorf,Augsburg,2,1,Win,3
+2018-19, 1/27/2019 ,Fortuna Dusseldorf,RB Leipzig,0,4,Loss,0
+2018-19, 2/2/2019 ,Fortuna Dusseldorf,Hoffenheim,1,1,Draw,1
+2018-19, 2/10/2019 ,Fortuna Dusseldorf,Stuttgart,3,0,Win,3
+2018-19, 2/17/2019 ,Fortuna Dusseldorf,Leverkusen,0,2,Loss,0
+2018-19, 2/23/2019 ,Fortuna Dusseldorf,Nurnberg,2,1,Win,3
+2018-19, 3/2/2019 ,Fortuna Dusseldorf,Schalke 04,4,0,Win,3
+2018-19, 3/11/2019 ,Fortuna Dusseldorf,Ein Frankfurt,0,3,Loss,0
+2018-19, 3/16/2019 ,Fortuna Dusseldorf,Wolfsburg,2,5,Loss,0
+2018-19, 3/30/2019 ,Fortuna Dusseldorf,M'gladbach,3,1,Win,3
+2018-19, 4/6/2019 ,Fortuna Dusseldorf,Hertha,2,1,Win,3
+2018-19, 4/14/2019 ,Fortuna Dusseldorf,Bayern Munich,1,4,Loss,0
+2018-19, 4/20/2019 ,Fortuna Dusseldorf,Mainz,1,3,Loss,0
+2018-19, 4/27/2019 ,Fortuna Dusseldorf,Werder Bremen,4,1,Win,3
+2018-19, 5/5/2019 ,Fortuna Dusseldorf,Freiburg,1,1,Draw,1
+2018-19, 5/11/2019 ,Fortuna Dusseldorf,Dortmund,2,3,Loss,0
+2018-19, 8/25/2018 ,Freiburg,Ein Frankfurt,0,2,Loss,0
+2018-19, 9/1/2018 ,Freiburg,Hoffenheim,1,3,Loss,0
+2018-19, 9/16/2018 ,Freiburg,Stuttgart,3,3,Draw,1
+2018-19, 9/22/2018 ,Freiburg,Wolfsburg,3,1,Win,3
+2018-19, 9/25/2018 ,Freiburg,Schalke 04,1,0,Win,3
+2018-19, 9/30/2018 ,Freiburg,Augsburg,1,4,Loss,0
+2018-19, 10/7/2018 ,Freiburg,Leverkusen,0,0,Draw,1
+2018-19, 10/21/2018 ,Freiburg,Hertha,1,1,Draw,1
+2018-19, 10/26/2018 ,Freiburg,M'gladbach,3,1,Win,3
+2018-19, 11/3/2018 ,Freiburg,Bayern Munich,1,1,Draw,1
+2018-19, 11/10/2018 ,Freiburg,Mainz,1,3,Loss,0
+2018-19, 11/25/2018 ,Freiburg,Werder Bremen,1,1,Draw,1
+2018-19, 12/1/2018 ,Freiburg,Dortmund,0,2,Loss,0
+2018-19, 12/8/2018 ,Freiburg,RB Leipzig,3,0,Win,3
+2018-19, 12/15/2018 ,Freiburg,Fortuna Dusseldorf,0,2,Loss,0
+2018-19, 12/19/2018 ,Freiburg,Hannover,1,1,Draw,1
+2018-19, 12/22/2018 ,Freiburg,Nurnberg,1,0,Win,3
+2018-19, 1/19/2019 ,Freiburg,Ein Frankfurt,1,3,Loss,0
+2018-19, 1/26/2019 ,Freiburg,Hoffenheim,2,4,Loss,0
+2018-19, 2/3/2019 ,Freiburg,Stuttgart,2,2,Draw,1
+2018-19, 2/9/2019 ,Freiburg,Wolfsburg,3,3,Draw,1
+2018-19, 2/16/2019 ,Freiburg,Schalke 04,0,0,Draw,1
+2018-19, 2/23/2019 ,Freiburg,Augsburg,5,1,Win,3
+2018-19, 3/2/2019 ,Freiburg,Leverkusen,0,2,Loss,0
+2018-19, 3/9/2019 ,Freiburg,Hertha,2,1,Win,3
+2018-19, 3/15/2019 ,Freiburg,M'gladbach,1,1,Draw,1
+2018-19, 3/30/2019 ,Freiburg,Bayern Munich,1,1,Draw,1
+2018-19, 4/5/2019 ,Freiburg,Mainz,0,5,Loss,0
+2018-19, 4/13/2019 ,Freiburg,Werder Bremen,1,2,Loss,0
+2018-19, 4/21/2019 ,Freiburg,Dortmund,0,4,Loss,0
+2018-19, 4/27/2019 ,Freiburg,RB Leipzig,1,2,Loss,0
+2018-19, 5/5/2019 ,Freiburg,Fortuna Dusseldorf,1,1,Draw,1
+2018-19, 5/11/2019 ,Freiburg,Hannover,0,3,Loss,0
+2018-19, 8/25/2018 ,Hannover,Werder Bremen,1,1,Draw,1
+2018-19, 8/31/2018 ,Hannover,Dortmund,0,0,Draw,1
+2018-19, 9/15/2018 ,Hannover,RB Leipzig,2,3,Loss,0
+2018-19, 9/22/2018 ,Hannover,Nurnberg,0,2,Loss,0
+2018-19, 9/25/2018 ,Hannover,Hoffenheim,1,3,Loss,0
+2018-19, 9/30/2018 ,Hannover,Ein Frankfurt,1,4,Loss,0
+2018-19, 10/6/2018 ,Hannover,Stuttgart,3,1,Win,3
+2018-19, 10/20/2018 ,Hannover,Leverkusen,2,2,Draw,1
+2018-19, 10/27/2018 ,Hannover,Augsburg,1,2,Loss,0
+2018-19, 11/3/2018 ,Hannover,Schalke 04,1,3,Loss,0
+2018-19, 11/9/2018 ,Hannover,Wolfsburg,2,1,Win,3
+2018-19, 11/25/2018 ,Hannover,M'gladbach,1,4,Loss,0
+2018-19, 12/1/2018 ,Hannover,Hertha,0,2,Loss,0
+2018-19, 12/9/2018 ,Hannover,Mainz,1,1,Draw,1
+2018-19, 12/15/2018 ,Hannover,Bayern Munich,0,4,Loss,0
+2018-19, 12/19/2018 ,Hannover,Freiburg,1,1,Draw,1
+2018-19, 12/22/2018 ,Hannover,Fortuna Dusseldorf,0,1,Loss,0
+2018-19, 1/19/2019 ,Hannover,Werder Bremen,0,1,Loss,0
+2018-19, 1/26/2019 ,Hannover,Dortmund,1,5,Loss,0
+2018-19, 2/1/2019 ,Hannover,RB Leipzig,0,3,Loss,0
+2018-19, 2/9/2019 ,Hannover,Nurnberg,2,0,Win,3
+2018-19, 2/16/2019 ,Hannover,Hoffenheim,0,3,Loss,0
+2018-19, 2/24/2019 ,Hannover,Ein Frankfurt,0,3,Loss,0
+2018-19, 3/3/2019 ,Hannover,Stuttgart,1,5,Loss,0
+2018-19, 3/10/2019 ,Hannover,Leverkusen,2,3,Loss,0
+2018-19, 3/16/2019 ,Hannover,Augsburg,1,3,Loss,0
+2018-19, 3/31/2019 ,Hannover,Schalke 04,0,1,Loss,0
+2018-19, 4/6/2019 ,Hannover,Wolfsburg,1,3,Loss,0
+2018-19, 4/13/2019 ,Hannover,M'gladbach,0,1,Loss,0
+2018-19, 4/21/2019 ,Hannover,Hertha,0,0,Draw,1
+2018-19, 4/27/2019 ,Hannover,Mainz,1,0,Win,3
+2018-19, 5/4/2019 ,Hannover,Bayern Munich,1,3,Loss,0
+2018-19, 5/11/2019 ,Hannover,Freiburg,3,0,Win,3
+2018-19, 8/25/2018 ,Hertha,Nurnberg,1,0,Win,3
+2018-19, 9/2/2018 ,Hertha,Schalke 04,2,0,Win,3
+2018-19, 9/15/2018 ,Hertha,Wolfsburg,2,2,Draw,1
+2018-19, 9/22/2018 ,Hertha,M'gladbach,4,2,Win,3
+2018-19, 9/25/2018 ,Hertha,Werder Bremen,1,3,Loss,0
+2018-19, 9/28/2018 ,Hertha,Bayern Munich,2,0,Win,3
+2018-19, 10/6/2018 ,Hertha,Mainz,0,0,Draw,1
+2018-19, 10/21/2018 ,Hertha,Freiburg,1,1,Draw,1
+2018-19, 10/27/2018 ,Hertha,Dortmund,2,2,Draw,1
+2018-19, 11/3/2018 ,Hertha,RB Leipzig,0,3,Loss,0
+2018-19, 11/10/2018 ,Hertha,Fortuna Dusseldorf,1,4,Loss,0
+2018-19, 11/24/2018 ,Hertha,Hoffenheim,3,3,Draw,1
+2018-19, 12/1/2018 ,Hertha,Hannover,2,0,Win,3
+2018-19, 12/8/2018 ,Hertha,Ein Frankfurt,1,0,Win,3
+2018-19, 12/15/2018 ,Hertha,Stuttgart,1,2,Loss,0
+2018-19, 12/18/2018 ,Hertha,Augsburg,2,2,Draw,1
+2018-19, 12/22/2018 ,Hertha,Leverkusen,1,3,Loss,0
+2018-19, 1/20/2019 ,Hertha,Nurnberg,3,1,Win,3
+2018-19, 1/25/2019 ,Hertha,Schalke 04,2,2,Draw,1
+2018-19, 2/2/2019 ,Hertha,Wolfsburg,0,1,Loss,0
+2018-19, 2/9/2019 ,Hertha,M'gladbach,3,0,Win,3
+2018-19, 2/16/2019 ,Hertha,Werder Bremen,1,1,Draw,1
+2018-19, 2/23/2019 ,Hertha,Bayern Munich,0,1,Loss,0
+2018-19, 3/2/2019 ,Hertha,Mainz,2,1,Win,3
+2018-19, 3/9/2019 ,Hertha,Freiburg,1,2,Loss,0
+2018-19, 3/16/2019 ,Hertha,Dortmund,2,3,Loss,0
+2018-19, 3/30/2019 ,Hertha,RB Leipzig,0,5,Loss,0
+2018-19, 4/6/2019 ,Hertha,Fortuna Dusseldorf,1,2,Loss,0
+2018-19, 4/14/2019 ,Hertha,Hoffenheim,0,2,Loss,0
+2018-19, 4/21/2019 ,Hertha,Hannover,0,0,Draw,1
+2018-19, 4/27/2019 ,Hertha,Ein Frankfurt,0,0,Draw,1
+2018-19, 5/4/2019 ,Hertha,Stuttgart,3,1,Win,3
+2018-19, 5/11/2019 ,Hertha,Augsburg,4,3,Win,3
+2018-19, 8/24/2018 ,Hoffenheim,Bayern Munich,1,3,Loss,0
+2018-19, 9/1/2018 ,Hoffenheim,Freiburg,3,1,Win,3
+2018-19, 9/15/2018 ,Hoffenheim,Fortuna Dusseldorf,1,2,Loss,0
+2018-19, 9/22/2018 ,Hoffenheim,Dortmund,1,1,Draw,1
+2018-19, 9/25/2018 ,Hoffenheim,Hannover,3,1,Win,3
+2018-19, 9/29/2018 ,Hoffenheim,RB Leipzig,1,2,Loss,0
+2018-19, 10/7/2018 ,Hoffenheim,Ein Frankfurt,1,2,Loss,0
+2018-19, 10/20/2018 ,Hoffenheim,Nurnberg,3,1,Win,3
+2018-19, 10/27/2018 ,Hoffenheim,Stuttgart,4,0,Win,3
+2018-19, 11/3/2018 ,Hoffenheim,Leverkusen,4,1,Win,3
+2018-19, 11/10/2018 ,Hoffenheim,Augsburg,2,1,Win,3
+2018-19, 11/24/2018 ,Hoffenheim,Hertha,3,3,Draw,1
+2018-19, 12/1/2018 ,Hoffenheim,Schalke 04,1,1,Draw,1
+2018-19, 12/8/2018 ,Hoffenheim,Wolfsburg,2,2,Draw,1
+2018-19, 12/15/2018 ,Hoffenheim,M'gladbach,0,0,Draw,1
+2018-19, 12/19/2018 ,Hoffenheim,Werder Bremen,1,1,Draw,1
+2018-19, 12/23/2018 ,Hoffenheim,Mainz,1,1,Draw,1
+2018-19, 1/18/2019 ,Hoffenheim,Bayern Munich,1,3,Loss,0
+2018-19, 1/26/2019 ,Hoffenheim,Freiburg,4,2,Win,3
+2018-19, 2/2/2019 ,Hoffenheim,Fortuna Dusseldorf,1,1,Draw,1
+2018-19, 2/9/2019 ,Hoffenheim,Dortmund,3,3,Draw,1
+2018-19, 2/16/2019 ,Hoffenheim,Hannover,3,0,Win,3
+2018-19, 2/25/2019 ,Hoffenheim,RB Leipzig,1,1,Draw,1
+2018-19, 3/2/2019 ,Hoffenheim,Ein Frankfurt,2,3,Loss,0
+2018-19, 3/10/2019 ,Hoffenheim,Nurnberg,2,1,Win,3
+2018-19, 3/16/2019 ,Hoffenheim,Stuttgart,1,1,Draw,1
+2018-19, 3/29/2019 ,Hoffenheim,Leverkusen,4,1,Win,3
+2018-19, 4/7/2019 ,Hoffenheim,Augsburg,4,0,Win,3
+2018-19, 4/14/2019 ,Hoffenheim,Hertha,2,0,Win,3
+2018-19, 4/20/2019 ,Hoffenheim,Schalke 04,5,2,Win,3
+2018-19, 4/28/2019 ,Hoffenheim,Wolfsburg,1,4,Loss,0
+2018-19, 5/4/2019 ,Hoffenheim,M'gladbach,2,2,Draw,1
+2018-19, 5/11/2019 ,Hoffenheim,Werder Bremen,0,1,Loss,0
+2018-19, 8/25/2018 ,Leverkusen,M'gladbach,0,2,Loss,0
+2018-19, 9/1/2018 ,Leverkusen,Wolfsburg,1,3,Loss,0
+2018-19, 9/15/2018 ,Leverkusen,Bayern Munich,1,3,Loss,0
+2018-19, 9/23/2018 ,Leverkusen,Mainz,1,0,Win,3
+2018-19, 9/26/2018 ,Leverkusen,Fortuna Dusseldorf,2,1,Win,3
+2018-19, 9/29/2018 ,Leverkusen,Dortmund,2,4,Loss,0
+2018-19, 10/7/2018 ,Leverkusen,Freiburg,0,0,Draw,1
+2018-19, 10/20/2018 ,Leverkusen,Hannover,2,2,Draw,1
+2018-19, 10/28/2018 ,Leverkusen,Werder Bremen,6,2,Win,3
+2018-19, 11/3/2018 ,Leverkusen,Hoffenheim,1,4,Loss,0
+2018-19, 11/11/2018 ,Leverkusen,RB Leipzig,0,3,Loss,0
+2018-19, 11/23/2018 ,Leverkusen,Stuttgart,2,0,Win,3
+2018-19, 12/3/2018 ,Leverkusen,Nurnberg,1,1,Draw,1
+2018-19, 12/8/2018 ,Leverkusen,Augsburg,1,0,Win,3
+2018-19, 12/16/2018 ,Leverkusen,Ein Frankfurt,1,2,Loss,0
+2018-19, 12/19/2018 ,Leverkusen,Schalke 04,2,1,Win,3
+2018-19, 12/22/2018 ,Leverkusen,Hertha,3,1,Win,3
+2018-19, 1/19/2019 ,Leverkusen,M'gladbach,0,1,Loss,0
+2018-19, 1/26/2019 ,Leverkusen,Wolfsburg,3,0,Win,3
+2018-19, 2/2/2019 ,Leverkusen,Bayern Munich,3,1,Win,3
+2018-19, 2/8/2019 ,Leverkusen,Mainz,5,1,Win,3
+2018-19, 2/17/2019 ,Leverkusen,Fortuna Dusseldorf,2,0,Win,3
+2018-19, 2/24/2019 ,Leverkusen,Dortmund,2,3,Loss,0
+2018-19, 3/2/2019 ,Leverkusen,Freiburg,2,0,Win,3
+2018-19, 3/10/2019 ,Leverkusen,Hannover,3,2,Win,3
+2018-19, 3/17/2019 ,Leverkusen,Werder Bremen,1,3,Loss,0
+2018-19, 3/29/2019 ,Leverkusen,Hoffenheim,1,4,Loss,0
+2018-19, 4/6/2019 ,Leverkusen,RB Leipzig,2,4,Loss,0
+2018-19, 4/13/2019 ,Leverkusen,Stuttgart,1,0,Win,3
+2018-19, 4/20/2019 ,Leverkusen,Nurnberg,2,0,Win,3
+2018-19, 4/26/2019 ,Leverkusen,Augsburg,4,1,Win,3
+2018-19, 5/5/2019 ,Leverkusen,Ein Frankfurt,6,1,Win,3
+2018-19, 5/11/2019 ,Leverkusen,Schalke 04,1,1,Draw,1
+2018-19, 8/26/2018 ,Mainz,Stuttgart,1,0,Win,3
+2018-19, 9/1/2018 ,Mainz,Nurnberg,1,1,Draw,1
+2018-19, 9/15/2018 ,Mainz,Augsburg,2,1,Win,3
+2018-19, 9/23/2018 ,Mainz,Leverkusen,0,1,Loss,0
+2018-19, 9/26/2018 ,Mainz,Wolfsburg,0,0,Draw,1
+2018-19, 9/29/2018 ,Mainz,Schalke 04,0,1,Loss,0
+2018-19, 10/6/2018 ,Mainz,Hertha,0,0,Draw,1
+2018-19, 10/21/2018 ,Mainz,M'gladbach,0,4,Loss,0
+2018-19, 10/27/2018 ,Mainz,Bayern Munich,1,2,Loss,0
+2018-19, 11/4/2018 ,Mainz,Werder Bremen,2,1,Win,3
+2018-19, 11/10/2018 ,Mainz,Freiburg,3,1,Win,3
+2018-19, 11/24/2018 ,Mainz,Dortmund,1,2,Loss,0
+2018-19, 11/30/2018 ,Mainz,Fortuna Dusseldorf,1,0,Win,3
+2018-19, 12/9/2018 ,Mainz,Hannover,1,1,Draw,1
+2018-19, 12/16/2018 ,Mainz,RB Leipzig,1,4,Loss,0
+2018-19, 12/19/2018 ,Mainz,Ein Frankfurt,2,2,Draw,1
+2018-19, 12/23/2018 ,Mainz,Hoffenheim,1,1,Draw,1
+2018-19, 1/19/2019 ,Mainz,Stuttgart,3,2,Win,3
+2018-19, 1/26/2019 ,Mainz,Nurnberg,2,1,Win,3
+2018-19, 2/3/2019 ,Mainz,Augsburg,0,3,Loss,0
+2018-19, 2/8/2019 ,Mainz,Leverkusen,1,5,Loss,0
+2018-19, 2/16/2019 ,Mainz,Wolfsburg,0,3,Loss,0
+2018-19, 2/23/2019 ,Mainz,Schalke 04,3,0,Win,3
+2018-19, 3/2/2019 ,Mainz,Hertha,1,2,Loss,0
+2018-19, 3/9/2019 ,Mainz,M'gladbach,0,1,Loss,0
+2018-19, 3/17/2019 ,Mainz,Bayern Munich,0,6,Loss,0
+2018-19, 3/30/2019 ,Mainz,Werder Bremen,1,3,Loss,0
+2018-19, 4/5/2019 ,Mainz,Freiburg,5,0,Win,3
+2018-19, 4/13/2019 ,Mainz,Dortmund,1,2,Loss,0
+2018-19, 4/20/2019 ,Mainz,Fortuna Dusseldorf,3,1,Win,3
+2018-19, 4/27/2019 ,Mainz,Hannover,0,1,Loss,0
+2018-19, 5/3/2019 ,Mainz,RB Leipzig,3,3,Draw,1
+2018-19, 5/12/2019 ,Mainz,Ein Frankfurt,2,0,Win,3
+2018-19, 8/25/2018 ,M'gladbach,Leverkusen,2,0,Win,3
+2018-19, 9/1/2018 ,M'gladbach,Augsburg,1,1,Draw,1
+2018-19, 9/15/2018 ,M'gladbach,Schalke 04,2,1,Win,3
+2018-19, 9/22/2018 ,M'gladbach,Hertha,2,4,Loss,0
+2018-19, 9/26/2018 ,M'gladbach,Ein Frankfurt,3,1,Win,3
+2018-19, 9/29/2018 ,M'gladbach,Wolfsburg,2,2,Draw,1
+2018-19, 10/6/2018 ,M'gladbach,Bayern Munich,3,0,Win,3
+2018-19, 10/21/2018 ,M'gladbach,Mainz,4,0,Win,3
+2018-19, 10/26/2018 ,M'gladbach,Freiburg,1,3,Loss,0
+2018-19, 11/4/2018 ,M'gladbach,Fortuna Dusseldorf,3,0,Win,3
+2018-19, 11/10/2018 ,M'gladbach,Werder Bremen,3,1,Win,3
+2018-19, 11/25/2018 ,M'gladbach,Hannover,4,1,Win,3
+2018-19, 12/2/2018 ,M'gladbach,RB Leipzig,0,2,Loss,0
+2018-19, 12/9/2018 ,M'gladbach,Stuttgart,3,0,Win,3
+2018-19, 12/15/2018 ,M'gladbach,Hoffenheim,0,0,Draw,1
+2018-19, 12/18/2018 ,M'gladbach,Nurnberg,2,0,Win,3
+2018-19, 12/21/2018 ,M'gladbach,Dortmund,1,2,Loss,0
+2018-19, 1/19/2019 ,M'gladbach,Leverkusen,1,0,Win,3
+2018-19, 1/26/2019 ,M'gladbach,Augsburg,2,0,Win,3
+2018-19, 2/2/2019 ,M'gladbach,Schalke 04,2,0,Win,3
+2018-19, 2/9/2019 ,M'gladbach,Hertha,0,3,Loss,0
+2018-19, 2/17/2019 ,M'gladbach,Ein Frankfurt,1,1,Draw,1
+2018-19, 2/23/2019 ,M'gladbach,Wolfsburg,0,3,Loss,0
+2018-19, 3/2/2019 ,M'gladbach,Bayern Munich,1,5,Loss,0
+2018-19, 3/9/2019 ,M'gladbach,Mainz,1,0,Win,3
+2018-19, 3/15/2019 ,M'gladbach,Freiburg,1,1,Draw,1
+2018-19, 3/30/2019 ,M'gladbach,Fortuna Dusseldorf,1,3,Loss,0
+2018-19, 4/7/2019 ,M'gladbach,Werder Bremen,1,1,Draw,1
+2018-19, 4/13/2019 ,M'gladbach,Hannover,1,0,Win,3
+2018-19, 4/20/2019 ,M'gladbach,RB Leipzig,1,2,Loss,0
+2018-19, 4/27/2019 ,M'gladbach,Stuttgart,0,1,Loss,0
+2018-19, 5/4/2019 ,M'gladbach,Hoffenheim,2,2,Draw,1
+2018-19, 5/11/2019 ,M'gladbach,Nurnberg,4,0,Win,3
+2018-19, 8/25/2018 ,Nurnberg,Hertha,0,1,Loss,0
+2018-19, 9/1/2018 ,Nurnberg,Mainz,1,1,Draw,1
+2018-19, 9/16/2018 ,Nurnberg,Werder Bremen,1,1,Draw,1
+2018-19, 9/22/2018 ,Nurnberg,Hannover,2,0,Win,3
+2018-19, 9/26/2018 ,Nurnberg,Dortmund,0,7,Loss,0
+2018-19, 9/29/2018 ,Nurnberg,Fortuna Dusseldorf,3,0,Win,3
+2018-19, 10/7/2018 ,Nurnberg,RB Leipzig,0,6,Loss,0
+2018-19, 10/20/2018 ,Nurnberg,Hoffenheim,1,3,Loss,0
+2018-19, 10/28/2018 ,Nurnberg,Ein Frankfurt,1,1,Draw,1
+2018-19, 11/3/2018 ,Nurnberg,Augsburg,2,2,Draw,1
+2018-19, 11/10/2018 ,Nurnberg,Stuttgart,0,2,Loss,0
+2018-19, 11/24/2018 ,Nurnberg,Schalke 04,2,5,Loss,0
+2018-19, 12/3/2018 ,Nurnberg,Leverkusen,1,1,Draw,1
+2018-19, 12/8/2018 ,Nurnberg,Bayern Munich,0,3,Loss,0
+2018-19, 12/14/2018 ,Nurnberg,Wolfsburg,0,2,Loss,0
+2018-19, 12/18/2018 ,Nurnberg,M'gladbach,0,2,Loss,0
+2018-19, 12/22/2018 ,Nurnberg,Freiburg,0,1,Loss,0
+2018-19, 1/20/2019 ,Nurnberg,Hertha,1,3,Loss,0
+2018-19, 1/26/2019 ,Nurnberg,Mainz,1,2,Loss,0
+2018-19, 2/2/2019 ,Nurnberg,Werder Bremen,1,1,Draw,1
+2018-19, 2/9/2019 ,Nurnberg,Hannover,0,2,Loss,0
+2018-19, 2/18/2019 ,Nurnberg,Dortmund,0,0,Draw,1
+2018-19, 2/23/2019 ,Nurnberg,Fortuna Dusseldorf,1,2,Loss,0
+2018-19, 3/2/2019 ,Nurnberg,RB Leipzig,0,1,Loss,0
+2018-19, 3/10/2019 ,Nurnberg,Hoffenheim,1,2,Loss,0
+2018-19, 3/17/2019 ,Nurnberg,Ein Frankfurt,0,1,Loss,0
+2018-19, 3/30/2019 ,Nurnberg,Augsburg,3,0,Win,3
+2018-19, 4/6/2019 ,Nurnberg,Stuttgart,1,1,Draw,1
+2018-19, 4/12/2019 ,Nurnberg,Schalke 04,1,1,Draw,1
+2018-19, 4/20/2019 ,Nurnberg,Leverkusen,0,2,Loss,0
+2018-19, 4/28/2019 ,Nurnberg,Bayern Munich,1,1,Draw,1
+2018-19, 5/4/2019 ,Nurnberg,Wolfsburg,0,2,Loss,0
+2018-19, 5/11/2019 ,Nurnberg,M'gladbach,0,4,Loss,0
+2018-19, 8/26/2018 ,RB Leipzig,Dortmund,1,4,Loss,0
+2018-19, 9/2/2018 ,RB Leipzig,Fortuna Dusseldorf,1,1,Draw,1
+2018-19, 9/15/2018 ,RB Leipzig,Hannover,3,2,Win,3
+2018-19, 9/23/2018 ,RB Leipzig,Ein Frankfurt,1,1,Draw,1
+2018-19, 9/26/2018 ,RB Leipzig,Stuttgart,2,0,Win,3
+2018-19, 9/29/2018 ,RB Leipzig,Hoffenheim,2,1,Win,3
+2018-19, 10/7/2018 ,RB Leipzig,Nurnberg,6,0,Win,3
+2018-19, 10/20/2018 ,RB Leipzig,Augsburg,0,0,Draw,1
+2018-19, 10/28/2018 ,RB Leipzig,Schalke 04,0,0,Draw,1
+2018-19, 11/3/2018 ,RB Leipzig,Hertha,3,0,Win,3
+2018-19, 11/11/2018 ,RB Leipzig,Leverkusen,3,0,Win,3
+2018-19, 11/24/2018 ,RB Leipzig,Wolfsburg,0,1,Loss,0
+2018-19, 12/2/2018 ,RB Leipzig,M'gladbach,2,0,Win,3
+2018-19, 12/8/2018 ,RB Leipzig,Freiburg,0,3,Loss,0
+2018-19, 12/16/2018 ,RB Leipzig,Mainz,4,1,Win,3
+2018-19, 12/19/2018 ,RB Leipzig,Bayern Munich,0,1,Loss,0
+2018-19, 12/22/2018 ,RB Leipzig,Werder Bremen,3,2,Win,3
+2018-19, 1/19/2019 ,RB Leipzig,Dortmund,0,1,Loss,0
+2018-19, 1/27/2019 ,RB Leipzig,Fortuna Dusseldorf,4,0,Win,3
+2018-19, 2/1/2019 ,RB Leipzig,Hannover,3,0,Win,3
+2018-19, 2/9/2019 ,RB Leipzig,Ein Frankfurt,0,0,Draw,1
+2018-19, 2/16/2019 ,RB Leipzig,Stuttgart,3,1,Win,3
+2018-19, 2/25/2019 ,RB Leipzig,Hoffenheim,1,1,Draw,1
+2018-19, 3/2/2019 ,RB Leipzig,Nurnberg,1,0,Win,3
+2018-19, 3/9/2019 ,RB Leipzig,Augsburg,0,0,Draw,1
+2018-19, 3/16/2019 ,RB Leipzig,Schalke 04,1,0,Win,3
+2018-19, 3/30/2019 ,RB Leipzig,Hertha,5,0,Win,3
+2018-19, 4/6/2019 ,RB Leipzig,Leverkusen,4,2,Win,3
+2018-19, 4/13/2019 ,RB Leipzig,Wolfsburg,2,0,Win,3
+2018-19, 4/20/2019 ,RB Leipzig,M'gladbach,2,1,Win,3
+2018-19, 4/27/2019 ,RB Leipzig,Freiburg,2,1,Win,3
+2018-19, 5/3/2019 ,RB Leipzig,Mainz,3,3,Draw,1
+2018-19, 5/11/2019 ,RB Leipzig,Bayern Munich,0,0,Draw,1
+2018-19, 8/25/2018 ,Schalke 04,Wolfsburg,1,2,Loss,0
+2018-19, 9/2/2018 ,Schalke 04,Hertha,0,2,Loss,0
+2018-19, 9/15/2018 ,Schalke 04,M'gladbach,1,2,Loss,0
+2018-19, 9/22/2018 ,Schalke 04,Bayern Munich,0,2,Loss,0
+2018-19, 9/25/2018 ,Schalke 04,Freiburg,0,1,Loss,0
+2018-19, 9/29/2018 ,Schalke 04,Mainz,1,0,Win,3
+2018-19, 10/6/2018 ,Schalke 04,Fortuna Dusseldorf,2,0,Win,3
+2018-19, 10/20/2018 ,Schalke 04,Werder Bremen,0,2,Loss,0
+2018-19, 10/28/2018 ,Schalke 04,RB Leipzig,0,0,Draw,1
+2018-19, 11/3/2018 ,Schalke 04,Hannover,3,1,Win,3
+2018-19, 11/11/2018 ,Schalke 04,Ein Frankfurt,0,3,Loss,0
+2018-19, 11/24/2018 ,Schalke 04,Nurnberg,5,2,Win,3
+2018-19, 12/1/2018 ,Schalke 04,Hoffenheim,1,1,Draw,1
+2018-19, 12/8/2018 ,Schalke 04,Dortmund,1,2,Loss,0
+2018-19, 12/15/2018 ,Schalke 04,Augsburg,1,1,Draw,1
+2018-19, 12/19/2018 ,Schalke 04,Leverkusen,1,2,Loss,0
+2018-19, 12/22/2018 ,Schalke 04,Stuttgart,3,1,Win,3
+2018-19, 1/20/2019 ,Schalke 04,Wolfsburg,2,1,Win,3
+2018-19, 1/25/2019 ,Schalke 04,Hertha,2,2,Draw,1
+2018-19, 2/2/2019 ,Schalke 04,M'gladbach,0,2,Loss,0
+2018-19, 2/9/2019 ,Schalke 04,Bayern Munich,1,3,Loss,0
+2018-19, 2/16/2019 ,Schalke 04,Freiburg,0,0,Draw,1
+2018-19, 2/23/2019 ,Schalke 04,Mainz,0,3,Loss,0
+2018-19, 3/2/2019 ,Schalke 04,Fortuna Dusseldorf,0,4,Loss,0
+2018-19, 3/8/2019 ,Schalke 04,Werder Bremen,2,4,Loss,0
+2018-19, 3/16/2019 ,Schalke 04,RB Leipzig,0,1,Loss,0
+2018-19, 3/31/2019 ,Schalke 04,Hannover,1,0,Win,3
+2018-19, 4/6/2019 ,Schalke 04,Ein Frankfurt,1,2,Loss,0
+2018-19, 4/12/2019 ,Schalke 04,Nurnberg,1,1,Draw,1
+2018-19, 4/20/2019 ,Schalke 04,Hoffenheim,2,5,Loss,0
+2018-19, 4/27/2019 ,Schalke 04,Dortmund,4,2,Win,3
+2018-19, 5/5/2019 ,Schalke 04,Augsburg,0,0,Draw,1
+2018-19, 5/11/2019 ,Schalke 04,Leverkusen,1,1,Draw,1
+2018-19, 8/26/2018 ,Stuttgart,Mainz,0,1,Loss,0
+2018-19, 9/1/2018 ,Stuttgart,Bayern Munich,0,3,Loss,0
+2018-19, 9/16/2018 ,Stuttgart,Freiburg,3,3,Draw,1
+2018-19, 9/21/2018 ,Stuttgart,Fortuna Dusseldorf,0,0,Draw,1
+2018-19, 9/26/2018 ,Stuttgart,RB Leipzig,0,2,Loss,0
+2018-19, 9/29/2018 ,Stuttgart,Werder Bremen,2,1,Win,3
+2018-19, 10/6/2018 ,Stuttgart,Hannover,1,3,Loss,0
+2018-19, 10/20/2018 ,Stuttgart,Dortmund,0,4,Loss,0
+2018-19, 10/27/2018 ,Stuttgart,Hoffenheim,0,4,Loss,0
+2018-19, 11/2/2018 ,Stuttgart,Ein Frankfurt,0,3,Loss,0
+2018-19, 11/10/2018 ,Stuttgart,Nurnberg,2,0,Win,3
+2018-19, 11/23/2018 ,Stuttgart,Leverkusen,0,2,Loss,0
+2018-19, 12/1/2018 ,Stuttgart,Augsburg,1,0,Win,3
+2018-19, 12/9/2018 ,Stuttgart,M'gladbach,0,3,Loss,0
+2018-19, 12/15/2018 ,Stuttgart,Hertha,2,1,Win,3
+2018-19, 12/18/2018 ,Stuttgart,Wolfsburg,0,2,Loss,0
+2018-19, 12/22/2018 ,Stuttgart,Schalke 04,1,3,Loss,0
+2018-19, 1/19/2019 ,Stuttgart,Mainz,2,3,Loss,0
+2018-19, 1/27/2019 ,Stuttgart,Bayern Munich,1,4,Loss,0
+2018-19, 2/3/2019 ,Stuttgart,Freiburg,2,2,Draw,1
+2018-19, 2/10/2019 ,Stuttgart,Fortuna Dusseldorf,0,3,Loss,0
+2018-19, 2/16/2019 ,Stuttgart,RB Leipzig,1,3,Loss,0
+2018-19, 2/22/2019 ,Stuttgart,Werder Bremen,1,1,Draw,1
+2018-19, 3/3/2019 ,Stuttgart,Hannover,5,1,Win,3
+2018-19, 3/9/2019 ,Stuttgart,Dortmund,1,3,Loss,0
+2018-19, 3/16/2019 ,Stuttgart,Hoffenheim,1,1,Draw,1
+2018-19, 3/31/2019 ,Stuttgart,Ein Frankfurt,0,3,Loss,0
+2018-19, 4/6/2019 ,Stuttgart,Nurnberg,1,1,Draw,1
+2018-19, 4/13/2019 ,Stuttgart,Leverkusen,0,1,Loss,0
+2018-19, 4/20/2019 ,Stuttgart,Augsburg,0,6,Loss,0
+2018-19, 4/27/2019 ,Stuttgart,M'gladbach,1,0,Win,3
+2018-19, 5/4/2019 ,Stuttgart,Hertha,1,3,Loss,0
+2018-19, 5/11/2019 ,Stuttgart,Wolfsburg,3,0,Win,3
+2018-19, 8/25/2018 ,Werder Bremen,Hannover,1,1,Draw,1
+2018-19, 9/1/2018 ,Werder Bremen,Ein Frankfurt,2,1,Win,3
+2018-19, 9/16/2018 ,Werder Bremen,Nurnberg,1,1,Draw,1
+2018-19, 9/22/2018 ,Werder Bremen,Augsburg,3,2,Win,3
+2018-19, 9/25/2018 ,Werder Bremen,Hertha,3,1,Win,3
+2018-19, 9/29/2018 ,Werder Bremen,Stuttgart,1,2,Loss,0
+2018-19, 10/5/2018 ,Werder Bremen,Wolfsburg,2,0,Win,3
+2018-19, 10/20/2018 ,Werder Bremen,Schalke 04,2,0,Win,3
+2018-19, 10/28/2018 ,Werder Bremen,Leverkusen,2,6,Loss,0
+2018-19, 11/4/2018 ,Werder Bremen,Mainz,1,2,Loss,0
+2018-19, 11/10/2018 ,Werder Bremen,M'gladbach,1,3,Loss,0
+2018-19, 11/25/2018 ,Werder Bremen,Freiburg,1,1,Draw,1
+2018-19, 12/1/2018 ,Werder Bremen,Bayern Munich,1,2,Loss,0
+2018-19, 12/7/2018 ,Werder Bremen,Fortuna Dusseldorf,3,1,Win,3
+2018-19, 12/15/2018 ,Werder Bremen,Dortmund,1,2,Loss,0
+2018-19, 12/19/2018 ,Werder Bremen,Hoffenheim,1,1,Draw,1
+2018-19, 12/22/2018 ,Werder Bremen,RB Leipzig,2,3,Loss,0
+2018-19, 1/19/2019 ,Werder Bremen,Hannover,1,0,Win,3
+2018-19, 1/26/2019 ,Werder Bremen,Ein Frankfurt,2,2,Draw,1
+2018-19, 2/2/2019 ,Werder Bremen,Nurnberg,1,1,Draw,1
+2018-19, 2/10/2019 ,Werder Bremen,Augsburg,4,0,Win,3
+2018-19, 2/16/2019 ,Werder Bremen,Hertha,1,1,Draw,1
+2018-19, 2/22/2019 ,Werder Bremen,Stuttgart,1,1,Draw,1
+2018-19, 3/3/2019 ,Werder Bremen,Wolfsburg,1,1,Draw,1
+2018-19, 3/8/2019 ,Werder Bremen,Schalke 04,4,2,Win,3
+2018-19, 3/17/2019 ,Werder Bremen,Leverkusen,3,1,Win,3
+2018-19, 3/30/2019 ,Werder Bremen,Mainz,3,1,Win,3
+2018-19, 4/7/2019 ,Werder Bremen,M'gladbach,1,1,Draw,1
+2018-19, 4/13/2019 ,Werder Bremen,Freiburg,2,1,Win,3
+2018-19, 4/20/2019 ,Werder Bremen,Bayern Munich,0,1,Loss,0
+2018-19, 4/27/2019 ,Werder Bremen,Fortuna Dusseldorf,1,4,Loss,0
+2018-19, 5/4/2019 ,Werder Bremen,Dortmund,2,2,Draw,1
+2018-19, 5/11/2019 ,Werder Bremen,Hoffenheim,1,0,Win,3
+2018-19, 8/25/2018 ,Wolfsburg,Schalke 04,2,1,Win,3
+2018-19, 9/1/2018 ,Wolfsburg,Leverkusen,3,1,Win,3
+2018-19, 9/15/2018 ,Wolfsburg,Hertha,2,2,Draw,1
+2018-19, 9/22/2018 ,Wolfsburg,Freiburg,1,3,Loss,0
+2018-19, 9/26/2018 ,Wolfsburg,Mainz,0,0,Draw,1
+2018-19, 9/29/2018 ,Wolfsburg,M'gladbach,2,2,Draw,1
+2018-19, 10/5/2018 ,Wolfsburg,Werder Bremen,0,2,Loss,0
+2018-19, 10/20/2018 ,Wolfsburg,Bayern Munich,1,3,Loss,0
+2018-19, 10/27/2018 ,Wolfsburg,Fortuna Dusseldorf,3,0,Win,3
+2018-19, 11/3/2018 ,Wolfsburg,Dortmund,0,1,Loss,0
+2018-19, 11/9/2018 ,Wolfsburg,Hannover,1,2,Loss,0
+2018-19, 11/24/2018 ,Wolfsburg,RB Leipzig,1,0,Win,3
+2018-19, 12/2/2018 ,Wolfsburg,Ein Frankfurt,2,1,Win,3
+2018-19, 12/8/2018 ,Wolfsburg,Hoffenheim,2,2,Draw,1
+2018-19, 12/14/2018 ,Wolfsburg,Nurnberg,2,0,Win,3
+2018-19, 12/18/2018 ,Wolfsburg,Stuttgart,2,0,Win,3
+2018-19, 12/23/2018 ,Wolfsburg,Augsburg,3,2,Win,3
+2018-19, 1/20/2019 ,Wolfsburg,Schalke 04,1,2,Loss,0
+2018-19, 1/26/2019 ,Wolfsburg,Leverkusen,0,3,Loss,0
+2018-19, 2/2/2019 ,Wolfsburg,Hertha,1,0,Win,3
+2018-19, 2/9/2019 ,Wolfsburg,Freiburg,3,3,Draw,1
+2018-19, 2/16/2019 ,Wolfsburg,Mainz,3,0,Win,3
+2018-19, 2/23/2019 ,Wolfsburg,M'gladbach,3,0,Win,3
+2018-19, 3/3/2019 ,Wolfsburg,Werder Bremen,1,1,Draw,1
+2018-19, 3/9/2019 ,Wolfsburg,Bayern Munich,0,6,Loss,0
+2018-19, 3/16/2019 ,Wolfsburg,Fortuna Dusseldorf,5,2,Win,3
+2018-19, 3/30/2019 ,Wolfsburg,Dortmund,0,2,Loss,0
+2018-19, 4/6/2019 ,Wolfsburg,Hannover,3,1,Win,3
+2018-19, 4/13/2019 ,Wolfsburg,RB Leipzig,0,2,Loss,0
+2018-19, 4/22/2019 ,Wolfsburg,Ein Frankfurt,1,1,Draw,1
+2018-19, 4/28/2019 ,Wolfsburg,Hoffenheim,4,1,Win,3
+2018-19, 5/4/2019 ,Wolfsburg,Nurnberg,2,0,Win,3
+2018-19, 5/11/2019 ,Wolfsburg,Stuttgart,0,3,Loss,0
