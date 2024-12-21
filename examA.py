@@ -49,10 +49,43 @@
 
 #Write a Python script to add two lists element-wise. For example, given lists `[1, 2, 3]` and `[4, 5, 6]`, the result should be `[5, 7, 9]`.
 
-list=["1","2","3"]
-list2=["4","5","6"]
+# list=["1","2","3"]
+# list2=["4","5","6"]
 
-first=int(list[0])+int(list2[0])
-second=int(list[1])+int(list2[1])
-third=(list[2])+list2[2]
-print(first,second,third)
+# first=int(list[0])+int(list2[0])
+# second=int(list[1])+int(list2[1])
+# third=(list[2])+list2[2]
+# print(first,second,third)
+
+# 11. 3
+#12. 3
+#13. if counter>42:
+#14. 2
+#15.*
+#16.Error
+#17.3+4
+#18.2+1
+#19.5
+#20.3+4
+#21.phone_dir="Oliver Twist":["5551122333"]
+
+
+#Exam B
+#1.Interpreted 
+#2.=str(input("Enter yes/no:"))
+#3.syntax
+#4.
+#5.float(input("Enter mass:"))
+#6.**,/,+
+#7.
+#8.
+#9. 3
+#10. *
+#11.*
+#12. for counter in range(1,7,2)
+#13. The code outputs nothing
+#14. if counter > 42:
+#15. height<=0,height>0
+#16. 1st+2nd
+#17. 2nd+ 4th
+#18. phone_dir={"Barry Lyn0don":"5551234567"}

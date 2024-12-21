@@ -33,7 +33,7 @@ with st.form("Register Student", clear_on_submit=True):
 
             dict= {"StudentID":[studentID],"Child Name":[name],"Year":[year],"Parent Name":[pname],"Email":[email],'Phone Number':[phone],"Address":[address]}
             tab= pd.DataFrame(dict)
-            table2= pd.concat([csvlink,tab],ignore_index=True)
+            table2= pd.concat([csvlink,tab],ignore_index=False)
             table2.to_csv("stu.csv",index=False)        
     
 if menu == 'School Fees':

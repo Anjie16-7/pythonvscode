@@ -32,7 +32,7 @@ try:
             email.add_attachment(filedata,maintype='application', subtype='octet stream', filename=filename)
     #octet stream: since youre not sure what type of data the user will upload. octet stream indicates any binary data
 
-            context = ssl.create_default_context() #this secures the mail in other not to be hacked/leaked
+            context = ssl.create_default_context() 
 
             with smtplib.SMTP_SSL('smtp.gmail.com', 465, context=context) as smtp:
                 smtp.login(sender,password)

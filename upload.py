@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+import plotly.express as px
 
 menu = st.sidebar.selectbox("Choose an option", ['Upload CSV','Upload Image','Upload Audio','Upload Video'])
 
@@ -10,6 +11,28 @@ if menu == 'Upload CSV' :
         readcsv = pd.read_csv(uploadcsv)
         with st.expander("View Table:"):
             st.table(readcsv)
+        read= readcsv.columns#read columns
+        select=st.multiselect("Choose column to plot:",read)
+        c1,c2=st.columns(2)
+        with c1:
+            operate=st.radio("Choose Operator",["Average","Sum","Count"])
+        with c2:
+            chart=st.radio("Choose Type Of Chart",["Pie Chart","Bar Chart"])
+
+        if select:
+            if operate=="Average":
+                values=readcsv[select].mean().reset_index()
+                st.table(values)
+                if chart=="Bar Chart":
+                    bar= px.bar(values,x= 'index', y=0,labels={'index':'Subject','0':'Average'})
+                    st.plotly_chart(bar)
+                elif operate== 'Pie Chart':
+                    pie = px.pie(values, names= 'index', values=0, labels={'index':'Subject','0':'Average'})
+                    st.plotly_chart(pie)
+
+
+
+
 
 if menu== "Upload Image":
     st.subheader("Upload Image")
