@@ -1,9 +1,11 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
+
 csvlink=pd.read_csv("attendance.csv")
 
 menu= st.sidebar.selectbox("Menu",["Record","Data Table"])
+st.sidebar.link_button("Question Link","https://stemhackathon.com/question-1-data-apps-hard/")
 if menu=="Record":
     st.title("Attendance Tracker")
     col1,col2=st.columns(2)
